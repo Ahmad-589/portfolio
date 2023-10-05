@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero-s{
+     height: 110vh;
+     width: 100%;
+    background-image: url(1351216841.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    flex-wrap: wrap;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: chocolate;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul il a:hover{
+    color:rgb(190, 144, 51);
+}
+
+.btn{
+    color: black;
+    background-color:rgb(190, 144, 51);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background-color: rgb(222, 155, 176);
+}
+.content{
+    position: absolute;
+    left: 36%;
+    right: 8%;
+    top: 30%;
+    transform: translateX(-50%);
+
+}
+h1{
+    color: white;
+    margin: 5px 0 5px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: pink;
+    letter-spacing: 2px;
+}
+.news form{
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline:none;
+    border: 2px solid red;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:pink;
+    top: 6px;
+    right: 6px;
+
+}
+/* .image{
+    position: absolute;
+    left: 36%;
+    right: 8%;
+    top: 20%;
+    transform: translateX(+110%);
+    flex-wrap: wrap;
+} */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#292943;
+}
+.about img{
+    height: auto;
+    width: 370px;
+}
+.text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text h5{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.text p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+button{
+    background-color:rgb(190, 144, 51) ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s
+}
+button:hover{
+    background-color: black;
+}
+/* .para p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+} */
+.services{
+    background:#101010;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.tittle h2{ 
+    color: white;
+    font-size: 75px;
+   
+    margin: 30px auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400%;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 335px ;
+    /* height: 365px; */
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    border-radius: 20px ;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.icon i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(190, 144, 51);
+
+}
+.icon h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.para p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+.icon .button{
+    background-color:rgb(190, 144, 51) ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s
+}
+.button:hover{
+    background-color: black;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact .button-2{
+    background-color:rgb(190, 51, 102) ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 9px 22px;
+    padding-left: 45px;
+    padding-right: 50px;
+    border-radius: 30px;
+    transition: .4s
+}
+.button-2:hover{
+    background-color: black;
+}
+.contact p{
+    color: white;
+    font-size: 30px;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+footer{
+    
+    width: 100%;
+}
+
+.panel-1{
+    background-color: #101010;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.button-2{
+    background-color:rgb(190, 144, 51);
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(2){
+    color: #fcfc;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(190, 144, 51);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid red;
+}
+.social a:hover{
+    background-color: black;
+}
+.end{
+    position: absolute;
+    color: wheat;
+    bottom : 20px;
+}
